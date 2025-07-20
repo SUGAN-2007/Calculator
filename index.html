@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="cal">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="app('+')" class="col">+</button>
+            <button onclick="app('7')">7</button>
+            <button onclick="app('8')">8</button>
+            <button onclick="app('9')">9</button>
+            <button onclick="app('-')" class="col">-</button>
+            <button onclick="app('4')">4</button>
+            <button onclick="app('5')">5</button>
+            <button onclick="app('6')">6</button>
+            <button onclick="app('*')" class="col">*</button>
+            <button onclick="app('1')">1</button>
+            <button onclick="app('2')">2</button>
+            <button onclick="app('3')">3</button>
+            <button onclick="app('/')" class="col">/</button>
+            <button onclick="app('0')">0</button>
+            <button onclick="app('.')">.</button>
+            <button onclick="calc()">=</button>
+            <button onclick="clr()" class="col">c</button>
+        </div>
+        <div>
+            <button onclick="spc()" class="alone">Space</button>
+        </div>
+    </div>
+
+    <script src="main.js"> </script>
+</body>
+
+</html>
